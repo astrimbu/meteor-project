@@ -6,7 +6,7 @@ import { TasksCollection } from '/imports/db/TasksCollection';
 import { TaskForm } from './TaskForm';
 import { useTracker } from 'meteor/react-meteor-data';
 
-// test result = merge conflicts
+// testing git branch again
 
 const toggleChecked = ({ _id, isChecked }) => {
     Meteor.call ('tasks.setIsChecked', _id, !isChecked);
